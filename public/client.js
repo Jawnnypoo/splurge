@@ -1,6 +1,6 @@
 window['__onGCastApiAvailable'] = function (loaded, errorInfo) {
     if (loaded) {
-        var applicationID = chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID;
+        var applicationID = "358F1E02";
         var sessionRequest = new chrome.cast.SessionRequest(applicationID);
         var apiConfig = new chrome.cast.ApiConfig(sessionRequest, function () {
         }, function () {

@@ -1,0 +1,24 @@
+/*
+The Chromecast Reciever Style CSS
+https://developers.google.com/cast/docs/styled_receiver
+*/
+.background {
+    background: center no-repeat url("https://i.ytimg.com/vi/C5wBkVrZAbo/maxresdefault.jpg");
+}
+
+.logo {
+    background-image: url(logo.png);
+}
+
+.progressBar {
+    background-color: rgb(238, 255, 65);
+}
+
+.splash {
+    background-image: url(logo.png);
+}
+
+.watermark {
+    background-image: url(logo.png);
+    background-size: 57px 57px;
+}
